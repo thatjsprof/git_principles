@@ -21,7 +21,8 @@ To add files recursively use
 
 
 To make a new commit use:
-> git commit<br>
+> git commit
+
 The above command would open an editor in your terminal. Type in your commit message and ctrl + save to save your changes then ctrl + w to quit the editor.
 To add all changed files and commit automatically use:
 > git commit -am <your-commit-message\>
