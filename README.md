@@ -52,3 +52,6 @@ To change the name of a file use
 You can also rename a file using above command but without git. Github would interpret this as you deleted a file and then created a new one. To add the new file then use the command below for git to update changes and interpret action as renamed file
 
 > git add -A
+
+To move a file into a different directory use
+> git mv <file-name\> <folder-name\>
