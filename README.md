@@ -55,3 +55,6 @@ You can also rename a file using above command but without git. Github would int
 
 To move a file into a different directory use
 > git mv <file-name\> <folder-name\>
+
+You can also use the command below to move a file
+> mv <file-name\> ..
