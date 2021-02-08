@@ -33,3 +33,15 @@ To update changes on github to your local machine use:
 
 To push changes on your local machine to github use
 > git push origin <branch-name\>
+
+To view your present status use
+> git status
+
+To view a list of all your tracked files use
+> git ls-files
+
+To back out after creating a commit use
+> git reset HEAD <file-name\>
+
+To discard all changes to a file use
+> git checkout -- <file-name\>
