@@ -45,3 +45,10 @@ To back out after creating a commit use
 
 To discard all changes to a file use
 > git checkout -- <file-name\>
+
+To change the name of a file use
+> git mv <old-file-name\> <new-file-name\>
+
+You can also rename a file using above command but without git. Github would interpret this as you deleted a file and then created a new one. To add the new file then use the command below for git to update changes and interpret action as renamed file
+
+> git add -A
