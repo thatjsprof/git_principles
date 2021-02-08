@@ -18,3 +18,16 @@ To add a single file use
 > git add <file-name\>
 To add files recursively use
 > git add .
+
+
+To make a new commit use:
+> git commit
+The above command would open an editor in your terminal. Type in your commit message and ctrl + save to save your changes then ctrl + w to quit the editor.
+To add all changed files and commit automatically use:
+> git commit -am <your-commit-message\>
+
+To update changes on github to your local machine use:
+> git pull origin <branch-name\>
+
+To push changes on your local machine to github use
+> git push origin <branch-name\>
