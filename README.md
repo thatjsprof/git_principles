@@ -53,6 +53,9 @@ You can also rename a file using above command but without git. Github would int
 
 > git add -A
 
+You can also use the command below to update git's index
+> git add -u
+
 To move a file into a different directory use
 > git mv <file-name\> <folder-name\>
 
