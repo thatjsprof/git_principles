@@ -67,3 +67,9 @@ To remove a file use
 
 To remove a folder use
 > git rm -rf <folder-name\>
+
+To restore changes to a file use
+> git restore <file-name\>
+
+To unstage a file use
+> git restore --staged <file-name\>
