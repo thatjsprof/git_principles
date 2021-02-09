@@ -61,3 +61,6 @@ To move a file into a different directory use
 
 You can also use the command below to move a file
 > mv <file-name\> ..
+
+To remove a file use
+> git rm <file-name\>
