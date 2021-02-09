@@ -64,3 +64,6 @@ You can also use the command below to move a file
 
 To remove a file use
 > git rm <file-name\>
+
+To remove a folder use
+> git rm -rf <folder-name\>
