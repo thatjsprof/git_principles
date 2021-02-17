@@ -73,3 +73,24 @@ To restore changes to a file use
 
 To unstage a file use
 > git restore --staged <file-name\>
+
+To view the history of your commits use
+> git log
+
+To view commits history with shorter identifiers use
+> git log --abbrev-commit
+
+To view your commits history in different configuration
+> git log --oneline --graph --decorate
+
+To view commits history between specific commits use
+> git log <commit-name-1\> <commit-name-2\>
+
+To perform date based search on commits use
+> git log --since="3 days ago"
+
+To view commit history for a particular file use
+> git log -- <file-name\>
+
+To go through the renames for a specific file us
+> git log --follow -- <path-to-file\>
