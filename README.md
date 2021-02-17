@@ -84,7 +84,7 @@ To view your commits history in different configuration
 > git log --oneline --graph --decorate
 
 To view commits history between specific commits use
-> git log <commit-name-1\> <commit-name-2\>
+> git log <commit-identifier-1\> <commit-identifier-2\>
 
 To perform date based search on commits use
 > git log --since="3 days ago"
@@ -94,3 +94,6 @@ To view commit history for a particular file use
 
 To go through the renames for a specific file us
 > git log --follow -- <path-to-file\>
+
+To show more information about a particular commit
+> git show <commit-identifier\>
