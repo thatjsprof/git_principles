@@ -97,3 +97,6 @@ To go through the renames for a specific file us
 
 To show more information about a particular commit
 > git show <commit-identifier\>
+
+To view list of commits that have deleted files use
+> git log --diff-filter=D --summary
